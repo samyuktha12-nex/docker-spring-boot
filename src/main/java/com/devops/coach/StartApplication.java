@@ -12,8 +12,8 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "Welcome folks..We are learning Kubernete Deployment using Helm, Jenkins Pipeline Today's date is Jan 18th, 2025");
-        model.addAttribute("msg", "Hello All..We are deploying springboot application into EKS cluster using Helm + Jenkins Pipeline!!!!");
+        model.addAttribute("title", "🚀 DevOps with Spring Boot on EKS - May 29, 2025");
+        model.addAttribute("msg", "✅ Successfully deployed a Spring Boot application to AWS EKS using Helm and Jenkins CI/CD pipeline!");
         return "index";
     }
 
@@ -22,3 +22,4 @@ public class StartApplication {
     }
 
 }
+

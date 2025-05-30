@@ -21,6 +21,6 @@ public class StartApplicationTest {
         mockMvc.perform(get("/"))
             .andExpect(status().isOk())
             .andExpect(view().name("index"))
-            .andExpect(model().attribute("msg", "Hello All..We are deploying springboot application into EKS cluster using Helm + Jenkins Pipeline!!!!"));
+            .andExpect(model().attribute("msg", "✅ Successfully deployed a Spring Boot application to AWS EKS using Helm and Jenkins CI/CD pipeline!"));
     }
 }
